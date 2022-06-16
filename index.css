@@ -1,0 +1,50 @@
+body{
+    color: white;/*cor letra*/
+    background-color: black;/*cor de fundo*/
+    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
+}
+ul{
+    display: flex; /*colocar a lista lado a lado*/
+    justify-content: space-between;
+    list-style-type: none;/*tira a boinha dos nomes*/
+    padding: 16px;/*distancia da margem*/
+}
+a{
+    color: white;/*mudar a cor do link*/
+    text-decoration: none;/*tira o sumbliado*/
+}
+header img{
+    width: 150px;/*largura da foto*/
+    height: 150px;/*altura*/
+    border-radius: 60%; /*deixar a imagem redonda*/
+    border: 5px solid #5bbe42;/*borda verde na imagem*/
+}
+.center{
+    text-align: center; /*colocar a imagem no centro*/
+
+}
+h1{
+    color: brown;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+}
+footer{
+    display: flex;/*coloca as imagens lado a lado*/
+    justify-content: center;/*coloca as imagens no centro da pagina*/
+}
+footer a{
+    margin: 20px;
+    text-align:  center;
+}
+footer p{
+    margin-top: 2px;
+}
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+    color: #5bbe42;/*quando passar o mouse em cima fica verde*/
+
+}
